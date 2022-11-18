@@ -1,9 +1,9 @@
-C:\Users\KETI\AppData\Local\Programs\Python\Python37\python.exe C:/Users/KETI/hannie/main.py
-Hi, PyCharm
-Files already downloaded and verified
-Files already downloaded and verified
-Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
-plane
+```C:\Users\KETI\AppData\Local\Programs\Python\Python37\python.exe C:/Users/KETI/hannie/main.py   
+Hi, PyCharm   
+Files already downloaded and verified   
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).   
+plane   
+
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -40,6 +40,7 @@ Forward/backward pass size (MB): 14.75
 Params size (MB): 222.48
 Estimated Total Size (MB): 237.82
 ----------------------------------------------------------------
+
 
 Epoch  0
 
@@ -442,3 +443,4 @@ Validation
 [2500/2500] | Loss: 0.83729
 
 Process finished with exit code 0
+```
