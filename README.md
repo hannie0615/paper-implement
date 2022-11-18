@@ -9,4 +9,4 @@ To simplify the code, it could be different from the original paper.
 
 
 ## CNN model list
-- ```Alexnet```
+- ```AlexNet```
