@@ -1,10 +1,9 @@
 # pytorch-CNN
 
-This is a simple training code using pytorch.
+This is a simple code implementing popular paper about machine-learning.
+(Using python, pytorch, single GPU)
 
-Using python, pytorch, single GPU
-
-To simplify the code, it could be different from the original paper.
+To simplify the code, it may be different from the original paper.
 
 
 
