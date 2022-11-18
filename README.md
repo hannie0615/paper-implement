@@ -8,5 +8,5 @@ To simplify the code, it could be different from the original paper.
 
 
 
-## Model list
+## odel list
 - ```Alexnet```
