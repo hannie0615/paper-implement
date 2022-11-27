@@ -5,7 +5,15 @@ This is a simple code implementing popular paper about machine-learning.
 
 To simplify the code, it may be different from the original paper.
 
+## pytorch로 구현한 Basic model
+- ```MLP - MNIST dataset```
+- ```CNN - MNIST dataset```  
 
+## paper 리뷰
+- ```GAN```  
+- ```StarGAN```  
+- ```U-GAI-IT```  
+- ```YOLO```  
 
 ## pytorch로 구현한 CNN model
 - ```AlexNet - CIFAR10 dataset```
@@ -26,12 +34,6 @@ To simplify the code, it may be different from the original paper.
 
 ![vggnet](https://user-images.githubusercontent.com/50253860/204150813-8f77e242-d38b-400a-a38a-ca9bb31c871e.png)
 
-## paper 리뷰
-- ```GAN```  
-- ```StarGAN```  
-- ```U-GAI-IT```  
-- ```YOLO```  
 
 
-## Basic model list
-- ```MLP - MNIST dataset```
+
