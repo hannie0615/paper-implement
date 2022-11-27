@@ -7,7 +7,7 @@ To simplify the code, it may be different from the original paper.
 
 
 
-## CNN model list
+## pytorch로 구현한 CNN model
 - ```AlexNet - CIFAR10 dataset```
 
 * 원문: https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf  
@@ -25,6 +25,13 @@ To simplify the code, it may be different from the original paper.
 * 원문: https://arxiv.org/pdf/1409.1556.pdf   
 
 ![vggnet](https://user-images.githubusercontent.com/50253860/204150813-8f77e242-d38b-400a-a38a-ca9bb31c871e.png)
+
+## paper 리뷰
+- ```GAN```  
+- ```StarGAN```  
+- ```U-GAI-IT```  
+- ```YOLO```  
+
 
 ## Basic model list
 - ```MLP - MNIST dataset```
