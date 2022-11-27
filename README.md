@@ -8,8 +8,8 @@ To simplify the code, it may be different from the original paper.
 
 
 ## CNN model list
-- ```AlexNet```
+- ```AlexNet - CIFAR10```
 
 
 ## Basic model list
-- ```MNIST - mlp```
+- ```mlp - MNIST```
