@@ -10,6 +10,7 @@ To simplify the code, it may be different from the original paper.
 ## CNN model list
 - ```AlexNet - CIFAR10 dataset```
 - ```ResNet - CIFAR10 dataset```
+- ```VGGNet - CIFAR10 dataset```
 
 
 ## Basic model list
