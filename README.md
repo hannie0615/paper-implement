@@ -25,7 +25,7 @@ To simplify the code, it may be different from the original paper.
 |VGGNet|CIFAR 10|VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION(2014)|[VGGNet](https://arxiv.org/pdf/1409.1556.pdf)|  
 
 
---------------
+
 
 
 
