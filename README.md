@@ -8,12 +8,10 @@ To simplify the code, it may be different from the original paper.
 ## Basic model
 
 - ```MLP - MNIST dataset```
-- ```CNN - MNIST dataset```  
 
 |Model|Dataset|Description|
 |------|---|---|
 |MLP|MNIST|Multi Layer Perceptron|
-|CNN|MNIST|Convolutional Neural Network|  
 
 
 
