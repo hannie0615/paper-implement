@@ -12,6 +12,7 @@ To simplify the code, it may be different from the original paper.
 |Model|Dataset|Description|
 |------|---|---|
 |MLP|MNIST|Multi Layer Perceptron|
+|CNN|CIFAR 10|Convolution Neural Network|
 
 
 
