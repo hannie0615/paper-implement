@@ -11,11 +11,6 @@ import matplotlib.pyplot as plt
 
 from torchsummary import summary
 
-def custom_imshow(img):
-    img = img.numpy()
-    plt.imshow(np.transpose(img, (1, 2, 0)))
-    plt.show()
-
 # 구현
 class Alexnet(torch.nn.Module):
     def __init__(self, in_channels, num_classes):
@@ -74,12 +69,7 @@ class Alexnet(torch.nn.Module):
 
         return self.classifier(x)
 
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
+# 훈련
 def train():
     transform = transforms.Compose(
         [transforms.ToTensor(),
@@ -87,6 +77,8 @@ def train():
          transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
 
     batch_size = 4
+    lr = 1e-4
+    epochs = 50
 
     trainset = torchvision.datasets.CIFAR10(root='./data', train=True,
                                             download=True, transform=transform)
@@ -101,18 +93,12 @@ def train():
     classes = ('plane', 'car', 'bird', 'cat',
                'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
-    sample_num = 694
 
-    custom_imshow(trainset[sample_num][0])
-    print(classes[trainset[sample_num][1]])
-
+    # gpu check
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
     model = Alexnet(3, 10).to(device)
     summary(model, input_size=(3, 227, 227), device='cuda')
-
-    lr = 1e-4
-    epochs = 50
 
     criterion = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
@@ -153,7 +139,6 @@ def train():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
     train()
 
 
